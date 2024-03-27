@@ -1,3 +1,1 @@
-### Projetos HTML 
-
-Repositório com projetos e estudos sobre HTML
+Projeto HTML com CSS recriando a pagina de navegação inical do Google Chrome. 

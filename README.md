@@ -1,5 +1,5 @@
 ## Projetos e estudos em HTML
 
-#### Google Homepage
+#### Projeto Google Homepage
 - Criação da interface da página inicial do Google utilizando HTML e CSS.
 

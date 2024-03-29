@@ -10,20 +10,12 @@ h1{
     color: rgb(255, 0, 0);
 }
 
-img{
+.logo-google{
     height: 92px;
 }
 
 a{
     text-decoration: none;
-}
-
-.botao-entrar{
-    font-family: Google Sans, Roboto, 'Helvetica', 'Arial', sans-serif;
-    background-color: #1a73e8;
-    color: #ffffff;
-    padding: 10px 30px;
-    border-radius: 4px;
 }
 
 .link-cabecalho{
@@ -42,8 +34,100 @@ footer{
 
 .caixa-rodape{
     padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .caixa-rodape--borda{
     border-bottom: 1px solid #dadce0;
+}
+
+.caixa-icone{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    padding: 6px 14px;
+}
+
+.caixa-links{
+    display: flex;
+    gap: 30px;
+}
+
+.icone-input{
+    width: 20px;
+    min-width: 20px;
+    fill: #9aa0a6;
+}
+
+.caixa-icones{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.icone-teclado{
+    width: 19px;
+    height: 19px;
+}
+
+.icone-colorido{
+    width: 24px;
+}
+
+.caixa-input{
+    width: 583px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 10px 14px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+
+}
+
+.input-pesquisa{
+    width: 100%;
+    height: 22px;
+    border: none;
+}
+
+.botao{
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border: none;
+    cursor: pointer;
+}
+
+.botao--entrar{
+    font-family: Google Sans, Roboto, 'Helvetica', 'Arial', sans-serif;
+    font-weight: 500;
+    background-color: #1a73e8;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+.caixa-botoes{
+    display: flex;
+    gap: 8px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
 }
